@@ -1,6 +1,5 @@
-
 game:GetService("StarterGui"):SetCore("SendNotification",{Title="PizzaHUB",Text="this good shit was made by F̍aͪz̃è Oͤb̐aͩḿā, click kick manager for more scripts", Duration=15})
-
+wait(4)
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
