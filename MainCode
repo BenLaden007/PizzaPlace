@@ -1,5 +1,5 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{Title="PizzaHUB",Text="this good shit was made by F̍aͪz̃è Oͤb̐aͩḿā, click kick manager for more scripts", Duration=15})
-wait(4)
+game:GetService("StarterGui"):SetCore("SendNotification",{Title="PizzaHUB",Text="this good shit was made by drip floppa, click kick manager for more scripts", Duration=5})
+wait(2)
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
 local UI = Material.Load({
@@ -14,7 +14,7 @@ local UI = Material.Load({
 
     })
 local Page = UI.New({
-    Title = "Faze Obama"
+    Title = "drip floppa#1234"
 })
 
  Page.Button({
@@ -28,13 +28,6 @@ Page.Button({
         Text = "FE MUSIC",
         Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BenLaden007/discordtitle/main/MainCode"))
-end
-})
-
- Page.Button({
-        Text = "kick manager",
-        Callback = function()
-loadstring(game:HttpGet("https://pastebin.com/raw/eKuE2FQt"))
 end
 })
 
@@ -875,121 +868,21 @@ end
  Page.Button({
         Text = "door tp",
         Callback = function()
---//====================================================\\--
---|| CREATED BY "𝔹𝕒𝕣𝕒𝕔𝕜#1986
---\\====================================================//--
-
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
-
-local X = Material.Load({
-	Title = "Pizza Hub",
-	Style = 3,
-	SizeX = 175,
-	SizeY = 500,
-	Theme = "Dark",
-	ColorOverrides = {
-		MainFrame = Color3.fromRGB(0,0,0)
-	}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BenLaden007/doortpPP/main/maincode"))
+end
 })
 
-local Y = X.New({
-	Title = "1"
-})
-
-local Z = X.New({
-	Title = "2"
-})
-
-local A = Y.Button({
-	Text = "Pizzeria",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(58.6816711, 3.48101473, -20.2914009)
-	end
-})
-
-local B = Y.Button({
-	Text = "A1 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(181.514923, 3.0810914, -459.84552)
-	end
-})
-
-local C = Y.Button({
-	Text = "A2 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(180.647919, 3.08102846, -650.705872)
-	end
-})
-
-local D = Y.Button({
-	Text = "A3 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(181.252014, 3.08102846, -823.63562)
-	end
-})
-
-local E = Y.Button({
-	Text = "B1 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12.5489779, 3.08101177, -444.099518)
-	end
-})
-
-local F = Y.Button({
-	Text = "B2 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(18.5583591, 3.08119273, -483.218201)
-	end
-})
-
-local G = Y.Button({
-	Text = "B3 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12.9449081, 3.08101177, -616.274841)
-	end
-})
-
-local H = Y.Button({
-	Text = "B4 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(16.6765804, 3.08101177, -659.929993)
-	end
-})
-
-local I = Y.Button({
-	Text = "B5 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-11.2493067, 3.08101177, -804.437012)
-	end
-})
-
-local J = Y.Button({
-	Text = "B6 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(16.1936169, 3.08101177, -836.332886)
-	end
-})
-
-local K = Y.Button({
-	Text = "C1 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.567123, 3.08103967, -432.777222)
-	end
-})
-
-local L = Y.Button({
-	Text = "C2 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-176.948975, 3.08105755, -620.230286)
-	end
-})
-
-local M = Y.Button({
-	Text = "C3 Teleport",
-	Callback = function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-176.226196, 3.08105755, -803.28656)
-	end
-})
-
+ Page.Button({
+        Text = "kick manager",
+        Callback = function()
+wait(0.5)
+print("kick manager loaded")
+game:GetService("StarterGui"):SetCore("SendNotification",{Title="PATCHED",Text="/manager to steal manager", Duration=15})
+local steal = loadstring(game:HttpGet("https://pastebin.com/raw/DNtN6W4D"))
+workspace.Main.Chatted.Chatted.Event:Connect(function(msg)
+if msg=="/manager" or msg=="\\manager" then
+steal()
+end
+end)
 end
 })
