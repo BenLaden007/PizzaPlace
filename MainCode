@@ -35,7 +35,8 @@ end
         Text = "kick manager",
         Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/eKuE2FQt"))
-end)
+end
+})
 
  Page.Button({
         Text = "autofarm",
@@ -992,4 +993,3 @@ local M = Y.Button({
 
 end
 })
-end})
